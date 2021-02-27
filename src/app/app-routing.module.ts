@@ -6,7 +6,7 @@ import { SectionComponent } from './components/pages/section/section.component';
 
 const routes: Routes = [
   {path: '', component: MainComponent},
-  {path: 'section', component: SectionComponent}
+  {path: ':category/:section', component: SectionComponent}
 ];
 
 @NgModule({

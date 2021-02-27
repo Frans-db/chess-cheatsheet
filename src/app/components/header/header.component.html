@@ -16,8 +16,8 @@
             Tactics
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarTacticDropdown">
-            <a class="dropdown-item" routerLink="/section" [queryParams]="{category: 'tactics', section: 'overview'}">Overview</a>
-            <a class="dropdown-item" routerLink="/section" [queryParams]="{category: 'tactics', section: 'fork'}">Fork</a>
+            <a class="dropdown-item" [routerLink]="['tactics', 'overview']">Overview</a>
+            <a class="dropdown-item" [routerLink]="['tactics', 'fork']">Fork</a>
           </div>
         </li>
         
@@ -26,8 +26,8 @@
               Checkmates
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarMateDropdown">
-              <a class="dropdown-item" routerLink="/section" [queryParams]="{category: 'mates', section: 'overview'}">Overview</a>
-              <a class="dropdown-item" routerLink="/section" [queryParams]="{category: 'mates', section: 'overview'}">Ladder</a>
+              <a class="dropdown-item" [routerLink]="['mates', 'overview']">Overview</a>
+              <a class="dropdown-item" [routerLink]="['mates', 'ladder']">Ladder</a>
             </div>
           </li>
 
