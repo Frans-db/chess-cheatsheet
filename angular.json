@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "db901957-70ca-4a7f-a2d9-eebba32f238b"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -28,12 +31,24 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              {
+                "glob": "**/*",
+                "input": "node_modules/chessboardjs/www/releases/0.3.0/img",
+                "output": "./img"
+              }
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/chessboardjs/www/releases/0.3.0/css/chessboard-0.3.0.min.css"
+
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/chessboardjs/www/releases/0.3.0/js/chessboard-0.3.0.min.js"
+            ]
           },
           "configurations": {
             "production": {
