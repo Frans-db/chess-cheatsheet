@@ -8,6 +8,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { MainComponent } from './components/pages/main/main.component';
 import { SectionComponent } from './components/pages/section/section.component';
 import { CardComponent } from './components/card/card.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CardComponent } from './components/card/card.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

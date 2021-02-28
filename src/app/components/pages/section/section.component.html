@@ -1,8 +1,6 @@
 <div class="row">
     <app-card
-    *ngFor="let card of data['cards']"
-    [title]="card.title"
-    [fen]="card.fen"
-    [description]="card.description"
+    *ngFor="let card of data.cards"
+    [card]="card"
     ></app-card>
 </div>

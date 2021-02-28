@@ -40,6 +40,17 @@
             </div>
         </li>
 
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarMateDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Openings
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarMateDropdown">
+            <a class="dropdown-item" [routerLink]="['openings', 'overview']">Overview</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" [routerLink]="['openings', 'liver']">Fried Liver</a>
+          </div>
+      </li>
+
       </ul>
     </div>
   </nav>

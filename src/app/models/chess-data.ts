@@ -1,6 +1,7 @@
 export class CardData {
     title!: string;
     fen!: string;
+    moves!: string[];
     description!: string;
 }
 

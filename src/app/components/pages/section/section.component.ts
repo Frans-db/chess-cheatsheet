@@ -40,7 +40,6 @@ export class SectionComponent implements OnInit {
     let url = `assets/${this.category}/${this.section}.json`;
     this.getJSON(url).subscribe(data => {
       this.data = data;
-      console.log(this.data);
     })
   }
 
