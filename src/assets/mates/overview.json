@@ -1,3 +1,30 @@
 {
-    "title": "mates - overview"
+    "title": "mates - overview",
+    "cards": [
+        {
+            "title": "Ladder",
+            "fen": "8/1k5R/6R1/8/8/8/8/4K3",
+            "description": "<p>A ladder mate is one of the easier mates, and can be done with two Rooks, Queens, or a Rook and a Queen. Right now black's King can only move to the 8th rank, where we can checkmate them by moving our Rook on the g file to g8.</p>"
+        },
+        {
+            "title": "Battery",
+            "fen": "1k6/pQp5/8/8/8/8/8/1K5B",
+            "description": "<p>In a Battery we have two of our pieces lined up. In this scenario the Queen is able to checkmate the opponent's King. The opponent cannot capture our Queen, because it's protected by the Bishop.</p>"
+        },
+        {
+            "title": "Queen",
+            "fen": "1k6/3Q4/1K6/8/8/8/8/8",
+            "description": "<p>A Queen can checkmate with help from the King. By using the Queen to force our opponent into the corner, we can hold them there, bring our King closer, and use their combined power to checkmate. Watch out for stalemates!</p>"
+        },
+        {
+            "title": "Rook",
+            "fen": "k7/2R5/1K6/8/8/8/8/8",
+            "description": "<p>A Rook mate is similar to a Queen mate. By forcing the opponent's King into a corner, we can use the King to block off all escape paths, and checkmate with the Rook. The main difference from the Queen mate is that we have to keep the King next to the rook to protect it, otherwise the opponent's King can capture it.</p>"
+        },
+        {
+            "title": "Smothered",
+            "fen": "6rk/5Npp/8/8/8/8/8/6K1",
+            "description": "<p>A smothered mate is when we check our opponent's King, and they have no escape path. Their own pieces block off all exits, and with all of them unable to capture the Knight, we have checkmate.</p>"
+        }
+    ]
 }

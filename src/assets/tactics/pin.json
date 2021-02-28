@@ -1,0 +1,20 @@
+{
+    "title": "tactics - pin",
+    "cards": [
+        {
+            "title": "Pin",
+            "fen": "8/8/3k4/8/2N5/4q3/8/8",
+            "description": "<p>a</p>"
+        },
+        {
+            "title": "Absolute pin",
+            "fen": "8/8/3k4/8/2N5/4q3/8/8",
+            "description": "<p>a</p>"
+        },
+        {
+            "title": "Relative pin",
+            "fen": "8/8/3k4/8/2N5/4q3/8/8",
+            "description": "<p>a</p>"
+        }
+    ]
+}
