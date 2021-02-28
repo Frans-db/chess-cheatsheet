@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, Input, OnInit } from '@angular/core';
 import * as ChessBoard from 'chessboardjs/www/js/chessboard';
 import * as uuid from 'uuid';
 
@@ -9,6 +9,9 @@ import * as uuid from 'uuid';
 })
 export class CardComponent implements AfterViewInit{
 
+  @Input() title!: string;
+  @Input() fen!: string;
+  @Input() description!: string;
   board!: any;
   id!: string;
 
@@ -17,7 +20,7 @@ export class CardComponent implements AfterViewInit{
   }
 
   ngAfterViewInit(): void {
-    this.board = ChessBoard('board-' + this.id, 'start');
+    this.board = ChessBoard('board-' + this.id, this.fen);
   }
 
 }
