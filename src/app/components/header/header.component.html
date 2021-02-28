@@ -17,7 +17,11 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarTacticDropdown">
             <a class="dropdown-item" [routerLink]="['tactics', 'overview']">Overview</a>
+            <div class="dropdown-divider"></div>
             <a class="dropdown-item" [routerLink]="['tactics', 'fork']">Fork</a>
+            <a class="dropdown-item" [routerLink]="['tactics', 'pin']">Pin</a>
+            <a class="dropdown-item" [routerLink]="['tactics', 'skewer']">Skewer</a>
+            <a class="dropdown-item" [routerLink]="['tactics', 'discovered']">Discoverd Attack</a>
           </div>
         </li>
         
@@ -27,6 +31,7 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarMateDropdown">
               <a class="dropdown-item" [routerLink]="['mates', 'overview']">Overview</a>
+              <div class="dropdown-divider"></div>
               <a class="dropdown-item" [routerLink]="['mates', 'ladder']">Ladder</a>
             </div>
           </li>
