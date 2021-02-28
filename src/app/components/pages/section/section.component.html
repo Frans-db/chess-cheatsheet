@@ -1,4 +1,4 @@
 <div class="row">
     <p>{{ data.title }}</p>
-    <app-card class="col-10 offset-1"></app-card>
+    <app-card class="col-10 offset-1" *ngFor="let card of data.cards"></app-card>
 </div>

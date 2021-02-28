@@ -1,4 +1,5 @@
 export class ChessData {
     title!: string;
-    cards!: ChessData[];
+    fen!: string;
+    description!: string;
 }

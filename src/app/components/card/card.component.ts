@@ -1,19 +1,23 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, OnInit } from '@angular/core';
 import * as ChessBoard from 'chessboardjs/www/js/chessboard';
+import * as uuid from 'uuid';
 
 @Component({
   selector: 'app-card',
   templateUrl: './card.component.html',
   styleUrls: ['./card.component.scss']
 })
-export class CardComponent implements OnInit {
+export class CardComponent implements AfterViewInit{
 
   board!: any;
+  id!: string;
 
-  constructor() { }
+  constructor() { 
+    this.id = uuid.v4();
+  }
 
-  ngOnInit(): void {
-    let board1 = ChessBoard('board', 'start');
+  ngAfterViewInit(): void {
+    this.board = ChessBoard('board-' + this.id, 'start');
   }
 
 }

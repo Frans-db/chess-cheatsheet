@@ -1,3 +1,15 @@
 {
-    "title": "tactics - overview"
+    "title": "tactics - overview",
+    "cards": [
+        {
+            "title": "Fork",
+            "fen": "8/8/3k4/8/2N5/4q3/8/8",
+            "description": "<p>A fork is cool, go get queen</p>"
+        },
+        {
+            "title": "Pin",
+            "fen": "8/3k4/8/8/3b4/8/8/3R4",
+            "description": "<p>Pins are weird</p>"
+        }
+    ]
 }
