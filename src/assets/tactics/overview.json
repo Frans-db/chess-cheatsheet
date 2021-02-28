@@ -4,12 +4,22 @@
         {
             "title": "Fork",
             "fen": "8/8/3k4/8/2N5/4q3/8/8",
-            "description": "<p>A fork is cool, go get queen</p>"
+            "description": "<p>A fork is an extremely useful tactics used to win material. By attacking multiple pieces at the same time, we make it impossible for the opponent to save both pieces.</p>"
         },
         {
             "title": "Pin",
             "fen": "8/3k4/8/8/3b4/8/8/3R4",
-            "description": "<p>Pins are weird</p>"
+            "description": "<p>A pin causes a piece to be stuck in place, because moving it would either mean exposing your king (which is not allowed), or exposing a piece more valuable than the piece being attacked. With this tactic we can win the pinned piece.</p>"
+        },
+        {
+            "title": "Skewer",
+            "fen": "8/6r1/8/4q3/8/2B5/3P4/8",
+            "description": "<p>A skewer is similar to a pin, in that we attack two pieces that are lined up. The difference is that now the more valuable piece is the one being attacked, and moving it would expose the less valuable piece. In this scenario the opponent should move their Queen (to g5 to protect the Rook would be an option), allowing us to take the Rook.</p>"
+        },
+        {
+            "title": "Discovered Attack",
+            "fen": "8/8/2k5/8/4q3/8/4B3/4R3",
+            "description": "A discovered attack is an attack that gets created (discovered) by moving another piece. By moving the Bishop to b5, we discover an attack on the Queen with our Rook. The beautiful part is that our opponent cannot save their Queen, because their King is in check."
         }
     ]
 }
