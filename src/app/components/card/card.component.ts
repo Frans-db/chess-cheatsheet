@@ -45,7 +45,6 @@ export class CardComponent implements AfterViewInit{
 
   doMove(moveIndex: number): void {
     const move: string = this.card.moves[moveIndex];
-    console.log(move);
     this.board.move(move);
   }
 
@@ -53,7 +52,6 @@ export class CardComponent implements AfterViewInit{
     const move: string = this.card.moves[moveIndex];
     const sections: string[] = move.split('-');
     const reversed: string = sections[1] + '-' + sections[0];
-    console.log(reversed);
     this.board.move(reversed);
   }
 
