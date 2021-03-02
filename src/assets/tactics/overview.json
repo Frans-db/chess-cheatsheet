@@ -17,13 +17,13 @@
             "title": "Skewer",
             "fen": "8/6r1/8/4q3/8/2B5/3P4/8",
             "moves": ["e5-e7", "c3-g7", "e7-g7"],
-            "description": "<p>A skewer is similar to a pin, in that we attack two pieces that are lined up. The difference is that now the more valuable piece is the one being attacked, and moving it would expose the less valuable piece. In this scenario the opponent should move their Queen (to g5 to protect the Rook would be an option), allowing us to take the Rook.</p>"
+            "description": "<p>A skewer is similar to a pin, in that we attack two pieces that are lined up. The difference is that now the more valuable piece is the one being attacked, and moving it would expose the less valuable piece. In this position the opponent should move their Queen, allowing us to take the Rook.</p>"
         },
         {
             "title": "Discovered Attack",
             "fen": "8/8/2k5/8/4q3/8/4B3/4R3",
             "moves": ["e2-b5", "c6-b5", "e1-e4"],
-            "description": "A discovered attack is an attack that gets created (discovered) by moving another piece. By moving the Bishop to b5, we discover an attack on the Queen with our Rook. The beautiful part is that our opponent cannot save their Queen, because their King is in check."
+            "description": "A discovered attack is an attack that gets created (discovered) by moving another piece. By moving the Bishop to b5, we discover an attack on the Queen with our Rook. Our opponent cannot save their Queen, because their King is in check."
         }
     ]
 }

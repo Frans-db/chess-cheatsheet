@@ -4,8 +4,8 @@
         {
             "title": "Failed Stafford Gambit",
             "fen": "rnbqkb1r/pppp1ppp/3n4/4N3/8/8/PPPPQPPP/RNB1KB1R",
-            "moves": [],
-            "description": "<p>a</p>"
+            "moves": ["e5-c6", "f8-e7", "c6-d8", "e8-d8"],
+            "description": "<p>In this line from the Stafford Gambit, white is able to create a discovered attack by moving their Knight. This allows White to win Black's Queen and be in a winning position.</p>"
         },
         {
             "title": "Fork with check",

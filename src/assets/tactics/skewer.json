@@ -2,16 +2,10 @@
     "title": "tactics - skewer",
     "cards": [
         {
-            "title": "Skewer",
-            "fen": "8/8/3k4/8/2N5/4q3/8/8",
-            "moves": [],
-            "description": "<p>a</p>"
-        },
-        {
-            "title": "Absolute skewer",
-            "fen": "8/8/3k4/8/2N5/4q3/8/8",
-            "moves": [],
-            "description": "<p>a</p>"
+            "title": "Absolute Skewer",
+            "fen": "6r1/8/8/3k4/3p4/1Q4P1/5PK1/8",
+            "moves": ["d5-c5", "b3-g8"],
+            "description": "<p>Just like in a pin, we have an absolute and a relative pin. In this position, we have an absolute skewer on the King and Rook. Black must move their King, allowing us to take the Rook.</p>"
         },
         {
             "title": "Relative skewer",
