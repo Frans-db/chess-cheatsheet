@@ -4,22 +4,26 @@
         {
             "title": "Knight fork",
             "fen": "r1bqkb1r/ppp2Npp/2np1n2/4p3/2B1P3/8/PPPP1PPP/RNBQK2R",
+            "moves": ["d8-d7", "f7-h8"],
             "description": "<p>A Knight fork is one of the more common forks you'll encounter. In this case the Knight on f6 is attacking both the Queen on d8 and the Rook and h8. The opponent can save one of these pieces, but the other one is lost.</p>"
         },
         {
             "title": "Pawn fork",
-            "fen": "r1bqkb1r/ppp2Npp/2np1n2/4p3/2B1P3/8/PPPP1PPP/RNBQK2R",
-            "description": "<p>a</p>"
+            "fen": "rnbqk2r/ppp2ppp/3b1n2/4P3/3P4/8/PPP3PP/RNBQKBNR",
+            "moves": ["d6-e5", "d4-e5"],
+            "description": "<p>Knights are not the only pieces that can fork. A Pawn with a piece on each diagonal can be extremely dangerous. In this position, Black is guaranteed to lose one of their pieces. Note that the Pawn has to be protected for this to work.</p>"
         },
         {
             "title": "Fork with check",
-            "fen": "8/8/3k4/8/2N5/4q3/8/8",
-            "description": "<p>A fork with a check is very strong. Because one of the rules in chess is that you have to protect your King, the opponent must respond by moving their King, thus losing their Queen.</p>"
+            "fen": "rnbqk1nr/ppp2ppp/8/3p4/QbPpP3/8/PP1N1PPP/R1B1KBNR",
+            "moves": ["c7-c6", "a4-b4"],
+            "description": "<p>A fork with check can be extremely dangerous. In this position our Queen is attacking both Black's King and Bishop. They must protect their King, allowing us to win their Bishop.</p>"
         },
         {
             "title": "Not quite a fork",
-            "fen": "8/8/3k4/8/2N5/4q3/8/8",
-            "description": "<p>a</p>"
+            "fen": "r1bqk2r/pppp1ppp/2n2n2/4N3/1b2P3/2N5/PPPP1PPP/R1BQKB1R",
+            "moves": ["c6-e5"],
+            "description": "<p>One thing to watch out for is that you cannot Fork a piece that is able to attack you. In this position it might look like the Knight on e5 is forking Black's Knight and Pawn, but Black's Knight can capture and we lose material.</p>"
         }
     ]
 }

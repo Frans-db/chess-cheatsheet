@@ -2,18 +2,21 @@
     "title": "tactics - discoverd",
     "cards": [
         {
-            "title": "Knight fork",
-            "fen": "8/8/3k4/8/2N5/4q3/8/8",
+            "title": "Failed Stafford Gambit",
+            "fen": "rnbqkb1r/pppp1ppp/3n4/4N3/8/8/PPPPQPPP/RNB1KB1R",
+            "moves": [],
             "description": "<p>a</p>"
         },
         {
             "title": "Fork with check",
             "fen": "8/8/3k4/8/2N5/4q3/8/8",
+            "moves": [],
             "description": "<p>a</p>"
         },
         {
             "title": "Not quite a fork",
             "fen": "8/8/3k4/8/2N5/4q3/8/8",
+            "moves": [],
             "description": "<p>a</p>"
         }
     ]
